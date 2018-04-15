@@ -1,0 +1,55 @@
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: 'Hi Melody', cursive;
+	color: #007bff;
+}
+
+table {
+	font-size: 1.5rem;
+	margin-top: 2%;
+	padding:10px 10px 10px 5px;
+}
+
+.table td, .table th {
+	border-top: 0px;
+	border-bottom: 1px solid #007bff;
+}
+
+.table td:hover {
+    cursor: pointer;
+}
+
+.input {
+  font-size:1.5rem;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border: 1px solid #007bff;
+}
+
+.invalid-feedback, .valid-feedback {
+  font-size:1.5rem;
+}
+
+.on {
+	color: #007bff;
+	text-decoration: none;
+}
+
+.done {
+	color: #6c757d;
+	text-decoration: line-through;
+}	
+
+.disabled {
+	cursor: not-allowed;
+	color: #6c757d !important;
+	border-color: #6c757d;
+}
+
+.disabled:hover {
+	border-color: #6c757d;
+}
